@@ -265,6 +265,42 @@ p{
     }
 }
 
+/*PARA CELULAR*/
+
+@media (max-width: 667px) {
+    p{
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+
+    .videos{
+        height: 298vh;
+        padding: 50px 0;
+    }
+
+    .sau{
+        height: 150vh;
+        padding: 50px 0;
+    }
+    .about{
+        height: 200vh;
+        padding: 50px 0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+}
+
 ul {
     display: flex;
     /*align-items: center;*/
