@@ -305,7 +305,10 @@ p{
     }
     .navbar a{
         padding: 20px 5px;
-        font-size: 10px;
+        font-size: 8px;
+    }
+    .logo a{
+        font-size: 12px;
     }
 }
 
