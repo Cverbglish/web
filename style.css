@@ -263,6 +263,10 @@ p{
     .navbar{
         display: flex;
     }
+    .navbar a{
+        padding: 20px 7px;
+        font-size: 13px;
+    }
 }
 
 /*PARA CELULAR*/
@@ -298,6 +302,10 @@ p{
     }
     .navbar{
         display: flex;
+    }
+    .navbar a{
+        padding: 20px 5px;
+        font-size: 10px;
     }
 }
 
