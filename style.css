@@ -81,6 +81,7 @@ p{
 }
 
 .btn{
+    border-radius: 10%;
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
@@ -238,8 +239,14 @@ p{
         margin-bottom: 0px;
         font-size: 40px;
     }
+
+    .videos{
+        height: 298vh;
+        padding: 50px 0;
+    }
+
     .sau{
-        height: 100vh;
+        height: 120vh;
         padding: 50px 0;
     }
     .about{
@@ -254,7 +261,7 @@ p{
         display: none;
     }
     .navbar{
-        display: none;
+        display: flex;
     }
 }
 
