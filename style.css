@@ -215,6 +215,13 @@ p{
     background: #171717;
 }
 
+.mp{
+    align-content: center;
+    border: 5px solid #0acfe9;
+    width: 100%;
+    height: 100%;
+}
+
 .footer section{
     display: flex;
 }
@@ -229,87 +236,6 @@ p{
     color: #fff;
     text-decoration: none;
     margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-    p{
-        padding: 0 50px;
-    }
-    .title{
-        margin-bottom: 0px;
-        font-size: 40px;
-    }
-
-    .videos{
-        height: 298vh;
-        padding: 50px 0;
-    }
-
-    .sau{
-        height: 120vh;
-        padding: 50px 0;
-    }
-    .about{
-        height: 100vh;
-        padding: 50px 0;
-    }
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-enlaces{
-        display: none;
-    }
-    .navbar{
-        display: flex;
-    }
-    .navbar a{
-        padding: 20px 7px;
-        font-size: 13px;
-    }
-}
-
-/*PARA CELULAR*/
-
-@media (max-width: 667px) {
-    p{
-        padding: 0 50px;
-    }
-    .title{
-        margin-bottom: 0px;
-        font-size: 40px;
-    }
-
-    .videos{
-        height: 298vh;
-        padding: 50px 0;
-    }
-
-    .sau{
-        height: 150vh;
-        padding: 50px 0;
-    }
-    .about{
-        height: 165vh;
-        padding: 50px 0;
-    }
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-enlaces{
-        display: none;
-    }
-    .navbar{
-        display: flex;
-    }
-    .navbar a{
-        padding: 20px 5px;
-        font-size: 6px;
-    }
-    .logo a{
-        font-size: 12px;
-    }
 }
 
 ul {
@@ -375,7 +301,7 @@ ul {
   }
   
   ul li:nth-child(2) a:before{
-    background: #55acee;
+    background: #000000;
   }
   
   ul li:nth-child(3) a:before {
@@ -400,4 +326,102 @@ ul {
 
 #an{
     background: #0cf104;
+}
+
+@media (max-width: 768px) {
+    p{
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+
+    .videos{
+        height: 298vh;
+        padding: 50px 0;
+    }
+
+    .sau{
+        height: 120vh;
+        padding: 50px 0;
+    }
+    .about{
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+
+    .navbar a{
+        padding: 20px 7px;
+        font-size: 13px;
+    }
+    .mp{
+        height: 100%; 
+        width: 80%;
+    }
+    ul li a {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/*PARA CELULAR*/
+
+@media (max-width: 667px) {
+    p{
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+
+    .videos{
+        height: 298vh;
+        padding: 50px 0;
+    }
+
+    .sau{
+        height: 150vh;
+        padding: 50px 0;
+    }
+    .about{
+        height: 180vh;
+        padding: 50px 0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar a{
+        padding: 20px 5px;
+        font-size: 8px;
+    }
+    .logo a{
+        font-size: 12px;
+    }
+    .mp{
+        height: 100%; 
+        width: 80%;
+    }
+    ul li a {
+        width: 70px;
+        height: 70px;
+    }
 }
