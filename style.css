@@ -218,8 +218,8 @@ p{
 .mp{
     align-content: center;
     border: 5px solid #0acfe9;
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
 }
 
 .footer section{
@@ -363,7 +363,7 @@ ul {
 
     .navbar a{
         padding: 20px 7px;
-        font-size: 13px;
+        font-size: 5px;
     }
     .mp{
         height: 100%; 
@@ -411,7 +411,7 @@ ul {
     }
     .navbar a{
         padding: 20px 5px;
-        font-size: 8px;
+        font-size: 5px;
     }
     .logo a{
         font-size: 12px;
